@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CHECKBOXES</title>
+	</head>
+	<body>
+		<h2>More Inputs!</h2>
+		<form action="/birds">
+			<input type="checkbox" name="agree_tos" id="agree" checked="checked" />
+			<label for="agree">I agree to everything</label>
+			<button>SUBMIT</button>
+		</form>
+
+		<div>
+			<h2>RADIO BUTTONS</h2>
+			<form action="/clothing" name="purchase_size">
+				<p>
+					<label for="s">Small:</label>
+					<input type="radio" name="size" id="s" value="small" /><br />
+					<label for="m">Medium</label>
+					<input type="radio" name="size" id="m" value="medium" /><br />
+					<label for="l">Large</label>
+					<input type="radio" name="size" id="l" value="large" /><br />
+					<button>SUBMIT</button>
+				</p>
+			</form>
+		</div>
+		<div>
+			<h2>Select Meal</h2>
+			<form action="/meals" name="meal_choice">
+				<p>
+					<label for="meal">Please select a meal</label>
+					<select name="meal" id="meal">
+						<option value="" selected>---Please select a meal---</option>
+						<option value="Vegetarian">Vegetarian</option>
+						<option value="Steak">Steak</option>
+						<option value="Vegan">Vegan</option>
+					</select>
+				</p>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FORMS DEMO</title>
+	</head>
+	<body>
+		<h1>FORMS</h1>
+		<form action="/tacos">
+			<label for="username">Enter a Username:</label>
+			<input type="text" name="username" id="username" placeholder="username" /><br />
+			<label for="password">Enter a password:</label>
+			<input type="password" name="password" id="password" placeholder="password" /><br />
+			<input type="color" name="color" /><br />
+			<input type="number" name="number" placeholder="Enter a number" /><br />
+			<input type="checkbox" name="checkbox" /><br />
+			<button type="button">DOES NOT SUBMIT</button><br />
+			<button>Does Submit</button><br />
+			<input type="submit" />
+		</form>
+		<br />
+		<div>
+			<label for="cheese">Do you like cheese?</label>
+			<input type="checkbox" name="cheese" id="cheese" />
+		</div>
+
+		<div>
+			<h2>Search Hijacker</h2>
+			<h3>Reddit</h3>
+			<form action="https://reddit.com/search">
+				<input type="text" name="q" />
+				<button type="submit">Search Reddit</button>
+			</form>
+			<h3>Google</h3>
+			<form action="https://www.google.com/search">
+				<input type="text" name="q" />
+				<button type="submit">Search Google</button>
+			</form>
+			<h3>Youtube</h3>
+			<form action="https://www.youtube.com/results">
+				<input type="text" name="search_query" />
+				<button type="submit">Search YouTube</button>
+			</form>
+		</div>
+	</body>
+</html>
