@@ -42,5 +42,33 @@
 				</p>
 			</form>
 		</div>
+		<div>
+			<h2>Range</h2>
+			<label for="epicness">EPICNESS</label>
+			<input type="range" name="epicness" id="epic_level" min="100" max="9001" />
+		</div>
+
+		<div>
+			<h2>Text Area</h2>
+			<label for="my_story">Tell us your story</label>
+			<br />
+			<textarea id="my_story" rows="10" cols="40" name="storytime" placeholder="Exciting times eh?"></textarea>
+		</div>
+
+		>
+		<div>
+			<h2>Validation</h2>
+			<form action="/user_form">
+				<label for="username">Choose a username</label>
+				<br />
+				<input type="text" name="username" id="username" minlength="4" maxlength="10" required />
+				<br />
+				<label for="email">Type your email address</label>
+				<br />
+				<input type="email" name="email" id="email" required />
+				<br />
+				<button>SUBMIT</button>
+			</form>
+		</div>
 	</body>
 </html>
